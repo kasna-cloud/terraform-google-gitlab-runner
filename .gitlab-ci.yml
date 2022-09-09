@@ -1,0 +1,8 @@
+stages:
+  - deploy
+
+deploy_all:
+  stage: deploy
+  image: google/cloud-sdk
+  script:
+    - make apply
