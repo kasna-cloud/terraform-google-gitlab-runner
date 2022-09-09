@@ -68,3 +68,7 @@ variable "labels" {
   description = "Key-value map of labels to assign to the runner"
   default     = {}
 }
+variable "machine_type" {
+  description = "Define the instance type"
+  default = "e2-micro"
+}

@@ -30,7 +30,7 @@ resource "google_compute_instance" "github_runner" {
   project      = var.project_id
   name         = var.name
   zone         = var.zone
-  machine_type = "e2-micro"
+  machine_type = var.machine_tpe
 
   boot_disk {
     initialize_params {

@@ -25,6 +25,7 @@ You will need to create a service account for the runner, the email address can 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | labels | Key-value map of labels to assign to the runner | `map(any)` | `{}` | no |
+| machine\_type | Define the instance type | `string` | `"e2-micro"` | no |
 | name | Name of the runner instance. | `string` | `"gitlab-runner"` | no |
 | network | The network to deploy to. | `string` | `"default"` | no |
 | project\_id | The project to deploy to | `string` | n/a | yes |
