@@ -1,0 +1,10 @@
+[
+    {
+        "template_folder": "./autogen",
+        "path": "./",
+        "options": {
+            "module_path": "",
+            "root": true
+        }
+    }
+]
