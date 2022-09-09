@@ -32,6 +32,7 @@ variable "runner_token" {
 variable "runner_timezone" {
   description = "Time zone for stop and start of instance to save $$$"
   type        = string
+  default     = "GMT"
 }
 variable "runner_start" {
   description = "Time for runner to start"
