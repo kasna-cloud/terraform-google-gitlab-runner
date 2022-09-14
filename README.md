@@ -18,6 +18,8 @@ You can choose whether to have an instance schedule on the runner or not. This w
 ## Service Account
 You will need to create a service account for the runner, the email address can be passed to the module using `service_account_email`, you will also need to assign appropriate permissions for the runner service account so that is can execute your CI/CD, usually `OWNER`.
 
+## Also
+It will take some time to run the first deployment, this is due to the need to download and set up the docker container. Be patient padawan.
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Inputs

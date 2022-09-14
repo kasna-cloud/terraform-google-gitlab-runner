@@ -70,5 +70,6 @@ variable "labels" {
 }
 variable "machine_type" {
   description = "Define the instance type"
-  default = "e2-micro"
+  type        = string
+  default     = "e2-micro"
 }
