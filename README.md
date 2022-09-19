@@ -26,6 +26,7 @@ It will take some time to run the first deployment, this is due to the need to d
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| disk\_size | Define the boot disk size | `number` | `50` | no |
 | labels | Key-value map of labels to assign to the runner | `map(any)` | `{}` | no |
 | machine\_type | Define the instance type | `string` | `"e2-micro"` | no |
 | name | Name of the runner instance. | `string` | `"gitlab-runner"` | no |

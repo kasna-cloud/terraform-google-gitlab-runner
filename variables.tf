@@ -73,3 +73,8 @@ variable "machine_type" {
   type        = string
   default     = "e2-micro"
 }
+variable "disk_size" {
+  description = "Define the boot disk size"
+  type        = number
+  default     = 50
+}

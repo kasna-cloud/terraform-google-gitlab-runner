@@ -35,6 +35,7 @@ resource "google_compute_instance" "github_runner" {
   boot_disk {
     initialize_params {
       image = "debian-cloud/debian-10"
+      size = var.disk_size
     }
   }
 
